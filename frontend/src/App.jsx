@@ -11,11 +11,15 @@ import { useState } from "react";
 function App() {
     return (
         <>
-            <Sidebar />
-            <Home />
-            <About />
-            <Education />
-            <Portofolio />
+            <aside>
+                <Sidebar />
+            </aside>
+            <main>
+                <Home />
+                <About />
+                <Education />
+                <Portofolio />
+            </main>
         </>
     );
 }
