@@ -1,0 +1,64 @@
+.menuBar {
+    display: none;
+    border-radius: 9999px;
+    padding: 0.25rem;
+}
+
+.menuList {
+    display: none;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    opacity: 90%;
+}
+
+.menuButton {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9999px;
+    box-shadow: 0 10px 15px -3px gray, 0 4px 6px -4px gray;
+    background-color: rgba(128, 128, 128, 0.384);
+    margin: 0.5rem;
+    padding: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.menuButton:hover {
+    transform: scale(1.1);
+    transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+    transition-duration: 100ms;
+}
+
+.menuBar:hover {
+    transform: scale(1.2);
+    transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+    transition-duration: 100ms;
+    box-shadow: 0 10px 15px -3px gray, 0 4px 6px -4px gray;
+}
+
+.buttonName {
+    padding-left: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .menuBar {
+        display: block;
+        position: absolute;
+        top: 3vh;
+        right: 3vh;
+        z-index: 99;
+    }
+
+    .menuList {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 20;
+    }
+}

@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import About from "./components/about/About.jsx";
 import Education from "./components/education/Education.jsx";
 import Home from "./components/home/Home.jsx";
