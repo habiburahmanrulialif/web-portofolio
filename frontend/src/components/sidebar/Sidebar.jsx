@@ -5,8 +5,6 @@ import {
     AiOutlineProject,
     AiOutlineMail,
 } from "react-icons/ai";
-import { BsPerson } from "react-icons/bs";
-import { GrProjects } from "react-icons/gr";
 import { LuGraduationCap } from "react-icons/lu";
 import "./sidebar.css";
 
