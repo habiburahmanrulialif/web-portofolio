@@ -46,10 +46,19 @@ const Sidebar = () => {
                 ""
             )}
 
-            <div>
-                <div>
-                    <a href="#main" onClick={handleNav} className="">
+            <div className="sideBar">
+                <div className="sideBarList">
+                    <a href="#main" onClick={handleNav} className="sideBarItem">
                         <AiOutlineHome size={20} />
+                    </a>
+                    <a href="#main" onClick={handleNav} className="sideBarItem">
+                        <LuGraduationCap size={20} />
+                    </a>
+                    <a href="#main" onClick={handleNav} className="sideBarItem">
+                        <AiOutlineProject size={20} />
+                    </a>
+                    <a href="#main" onClick={handleNav} className="sideBarItem">
+                        <AiOutlineMail size={20} />
                     </a>
                 </div>
             </div>
