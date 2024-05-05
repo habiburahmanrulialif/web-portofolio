@@ -25,19 +25,19 @@ const Sidebar = () => {
             <AiOutlineMenu size={20} onClick={handleNav} className="menuBar" />
             {nav ? (
                 <div className="menuList">
-                    <a href="#main" onClick={handleNav} className="menuButton">
+                    <a href="#home" onClick={handleNav} className="menuButton">
                         <AiOutlineHome size={20} />
                         <span className="buttonName">Home</span>
                     </a>
-                    <a href="#main" onClick={handleNav} className="menuButton">
+                    <a href="#education" onClick={handleNav} className="menuButton">
                         <LuGraduationCap size={20} />
                         <span className="buttonName">Education</span>
                     </a>
-                    <a href="#main" onClick={handleNav} className="menuButton">
+                    <a href="#project" onClick={handleNav} className="menuButton">
                         <AiOutlineProject size={20} />
                         <span className="buttonName">Project</span>
                     </a>
-                    <a href="#main" onClick={handleNav} className="menuButton">
+                    <a href="#contact" onClick={handleNav} className="menuButton">
                         <AiOutlineMail size={20} />
                         <span className="buttonName">Contact</span>
                     </a>
@@ -48,16 +48,16 @@ const Sidebar = () => {
 
             <div className="sideBar">
                 <div className="sideBarList">
-                    <a href="#main" onClick={handleNav} className="sideBarItem">
+                    <a href="#home" onClick={handleNav} className="sideBarItem">
                         <AiOutlineHome size={20} />
                     </a>
-                    <a href="#main" onClick={handleNav} className="sideBarItem">
+                    <a href="#education" onClick={handleNav} className="sideBarItem">
                         <LuGraduationCap size={20} />
                     </a>
-                    <a href="#main" onClick={handleNav} className="sideBarItem">
+                    <a href="#project" onClick={handleNav} className="sideBarItem">
                         <AiOutlineProject size={20} />
                     </a>
-                    <a href="#main" onClick={handleNav} className="sideBarItem">
+                    <a href="#contact" onClick={handleNav} className="sideBarItem">
                         <AiOutlineMail size={20} />
                     </a>
                 </div>
