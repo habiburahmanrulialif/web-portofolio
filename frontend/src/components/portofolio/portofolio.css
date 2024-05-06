@@ -1,0 +1,28 @@
+.project {
+    max-width: 1040px;
+    margin: auto;
+    padding: 1rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.titleDescription {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.projectItem {
+    display: grid;
+    gap: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+    .project {
+        padding: 5rem;
+    }
+
+    .projectItem {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
