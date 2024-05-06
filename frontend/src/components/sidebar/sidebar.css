@@ -78,7 +78,7 @@
 @media screen and (max-width: 768px) {
     .menuBar {
         display: block;
-        position: absolute;
+        position: fixed;
         top: 3vh;
         right: 3vh;
         z-index: 99;

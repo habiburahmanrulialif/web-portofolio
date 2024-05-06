@@ -66,6 +66,7 @@
     .myName {
         font-size: 3rem; /* 48px */
         line-height: 1;
+        text-align: center;
     }
     .myOccupation {
         font-size: 1.875rem; /* 30px */
