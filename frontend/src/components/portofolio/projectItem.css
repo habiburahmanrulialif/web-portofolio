@@ -8,13 +8,44 @@
     box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
         0 8px 10px -6px rgb(0 0 0 / 0.1);
     border-radius: 0.75rem; /* 12px */
-}
-
-.projectItem-Item:hover {
-    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+    overflow: hidden;
 }
 
 .projectImg {
     width: 100%;
+    border-radius: 0.75rem;
 }
  
+.projectDetailContainer{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: 1.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 100%;
+    background-color: #1f3d4738;
+    backdrop-filter: blur(5px);
+    color: white;
+}
+
+.projectTitle {
+
+}
+
+.projectDetail {
+
+}
+
+.projectLink {
+    text-decoration: none;
+}
+
+.projectItem-Item:hover .projectDetailContainer{
+    top: 0;
+}
+
+
+

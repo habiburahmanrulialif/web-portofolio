@@ -14,10 +14,10 @@ const Portofolio = () => {
                 dolorum. Quas optio ex perferendis temporibus?
             </p>
             <div className="projectItem">
-                <ProjectItem img={testImg} title="test" />
-                <ProjectItem img={testImg} title="test" />
-                <ProjectItem img={testImg} title="test" />
-                <ProjectItem img={testImg} title="test" />
+                <ProjectItem img={testImg} title="test" link="#"/>
+                <ProjectItem img={testImg} title="test" link="#"/>
+                <ProjectItem img={testImg} title="test" link="#"/>
+                <ProjectItem img={testImg} title="test" link="#"/>
             </div>
         </div>
     );
