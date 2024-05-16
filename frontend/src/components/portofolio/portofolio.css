@@ -6,6 +6,16 @@
     padding-bottom: 4rem;
 }
 
+.title {
+    padding-top: 4rem; /* 64px */
+    padding-bottom: 4rem; /* 64px */
+    font-size: 2.25rem; /* 36px */
+    line-height: 2.5rem; /* 40px */
+    font: bold;
+    text-align: center;
+    color: #001b5e;
+}
+
 .titleDescription {
     text-align: center;
     padding-top: 2rem;

@@ -6,11 +6,13 @@
     padding-bottom: 4rem; /* 64px */
 }
 .title {
+    padding-top: 4rem; /* 64px */
+    padding-bottom: 4rem; /* 64px */
     font-size: 2.25rem; /* 36px */
     line-height: 2.5rem; /* 40px */
-    font-weight: bold;
+    font: bold;
     text-align: center;
-    color: black;
+    color: #001b5e;
 }
 
 @media screen and (min-width: 768px) {

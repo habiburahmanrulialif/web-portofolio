@@ -1,0 +1,80 @@
+.contact {
+    max-width: 1040px;
+    margin: auto;
+    padding: 1rem;
+    padding-top: 4rem; /* 64px */
+    padding-bottom: 4rem; /* 64px */
+    min-height: 100%;
+}
+
+.contactTitle {
+    padding-top: 4rem; /* 64px */
+    padding-bottom: 4rem; /* 64px */
+    font-size: 2.25rem; /* 36px */
+    line-height: 2.5rem; /* 40px */
+    font: bold;
+    text-align: center;
+    color: #001b5e;
+}
+
+.phoneDetail {
+    display: grid;
+    gap: 1rem;
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.sendButton {
+    background-color: #001b5e;
+    color: rgb(243 244 246);
+    margin-top: 1rem;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.sendButton:hover {
+    background-color: #11389b;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-col-py-2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.labelCss {
+    text-transform: uppercase;
+    font-size: 0.875rem; /* 14px */
+    line-height: 1.25rem; /* 20px */
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.inputCss {
+    border-width: 2px;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    border-color: rgb(209 213 219);
+}
+
+@media screen and (min-width: 768px) {
+    .contact {
+        padding: 5rem;
+        min-height: 100%;
+    }
+
+    .phoneDetail {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
