@@ -29,7 +29,7 @@ const data = [
 const Education = () => {
     return (
         <div id="education" className="education">
-            <h1 className="title">WORK</h1>
+            <h1 className="title">EDUCATION</h1>
             {data.map((item, idx) => (
                 <EducationItem
                     key={idx}

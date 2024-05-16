@@ -4,7 +4,7 @@
     padding: 1rem;
     padding-top: 4rem; /* 64px */
     padding-bottom: 4rem; /* 64px */
-    min-height: 100%;
+    min-height: 95vh;
 }
 
 .contactTitle {
@@ -71,7 +71,6 @@
 @media screen and (min-width: 768px) {
     .contact {
         padding: 5rem;
-        min-height: 100%;
     }
 
     .phoneDetail {
