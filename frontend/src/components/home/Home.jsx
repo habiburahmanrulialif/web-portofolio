@@ -30,10 +30,13 @@ const Home = () => {
                         />
                     </h2>
                     <div className="socialMedia">
-                     <FaLinkedin  size={20} className="cursor-pointer"/>
-                     <FaInstagram size={20} className="cursor-pointer"/>
-                     <FaTwitter   size={20} className="cursor-pointer"/>
-                     <FaFacebook  size={20} className="cursor-pointer"/>
+                        <a href="https://www.linkedin.com" target="_blank">
+                            <FaLinkedin size={20} className="cursor-pointer" />
+                        </a>
+
+                        <FaInstagram size={20} className="cursor-pointer" />
+                        <FaTwitter size={20} className="cursor-pointer" />
+                        <FaFacebook size={20} className="cursor-pointer" />
                     </div>
                 </div>
             </div>
