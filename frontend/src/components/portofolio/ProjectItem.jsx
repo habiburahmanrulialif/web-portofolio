@@ -7,7 +7,7 @@ const ProjectItem = ({ img, title, link }) => {
             <img src={img} alt="/" className="projectImg" />
             <div className="projectDetailContainer">
                 <h3 className="projectTitle">{title}</h3>
-                <a href={link} className="projectLink">LIVE DEMO</a>
+                <a href={link} target="_blank" className="projectLink">LIVE DEMO</a>
             </div>
         </div>
     );
