@@ -5,7 +5,7 @@ import testImg from "../../assets/home-background.jpg";
 import Chatter50 from "../../assets/Chatter50.png";
 import Network50 from "../../assets/Network50.png";
 import Mail50 from "../../assets/Mail50.png";
-import Commerce50 from "../../assets/Chatter50.png";
+import Commerce50 from "../../assets/Commerce50.png";
 import Wiki50 from "../../assets/Wiki50.png";
 
 const Portofolio = () => {
