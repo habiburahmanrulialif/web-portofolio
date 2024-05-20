@@ -2,11 +2,11 @@ import React from "react";
 import "./portofolio.css";
 import ProjectItem from "./ProjectItem";
 import testImg from "../../assets/home-background.jpg";
-import Chatter50 from "../../assets/Chatter50.jpg";
-import Network50 from "../../assets/Network50.jpg";
-import Mail50 from "../../assets/Mail50.jpg";
-import Commerce50 from "../../assets/Chatter50.jpg";
-import Wiki50 from "../../assets/Wiki50.jpg";
+import Chatter50 from "../../assets/Chatter50.png";
+import Network50 from "../../assets/Network50.png";
+import Mail50 from "../../assets/Mail50.png";
+import Commerce50 from "../../assets/Chatter50.png";
+import Wiki50 from "../../assets/Wiki50.png";
 
 const Portofolio = () => {
     return (
