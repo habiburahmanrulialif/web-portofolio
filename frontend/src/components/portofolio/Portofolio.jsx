@@ -17,10 +17,11 @@ const Portofolio = () => {
                     dolorum. Quas optio ex perferendis temporibus?
                 </p>
                 <div className="projectItem">
-                    <ProjectItem img={testImg} title="test" link="#" />
-                    <ProjectItem img={testImg} title="test" link="#" />
-                    <ProjectItem img={testImg} title="test" link="#" />
-                    <ProjectItem img={testImg} title="test" link="#" />
+                    <ProjectItem img={testImg} title="Chatter50" link="chatter50.up.railway.app" />
+                    <ProjectItem img={testImg} title="Network50" link="network50.up.railway.app" />
+                    <ProjectItem img={testImg} title="Mail50" link="mail50.up.railway.app" />
+                    <ProjectItem img={testImg} title="Commerce50" link="commerce50.up.railway.app" />
+                    <ProjectItem img={testImg} title="Wiki50" link="wiki50.up.railway.app" />
                 </div>
             </div>
         </div>
