@@ -55,6 +55,6 @@
     background-color: rgb(231, 230, 230);
 }
 
-.projectItem-Item:hover .projectItem-Item:active .projectDetailContainer {
+.projectItem-Item:hover, .projectItem-Item:active .projectDetailContainer {
     top: 0;
 }
