@@ -7,21 +7,21 @@ const data = [
         year: 2013,
         title: "Plus Senior High School of Riau Province",
         details:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam labore aspernatur eligendi nostrum quas! Doloribus iste reiciendis similique facere illo, accusamus dicta nobis, illum labore fugiat ipsa. Odio, inventore ut.",
+            "Natural Science's",
         durations: "3 years",
     },
     {
         year: 2016,
-        title: "Electrical Engineering - Andalas University, BA",
+        title: "Andalas University",
         details:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam labore aspernatur eligendi nostrum quas! Doloribus iste reiciendis similique facere illo, accusamus dicta nobis, illum labore fugiat ipsa. Odio, inventore ut.",
+            "Bachelor’s Degree in Electrical Engineering - GPA 3.17",
         durations: "7 years",
     },
     {
         year: 2023,
-        title: "Harvard Conputer Science - CS50x and CS50w",
+        title: "Harvard Conputer Science",
         details:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam labore aspernatur eligendi nostrum quas! Doloribus iste reiciendis similique facere illo, accusamus dicta nobis, illum labore fugiat ipsa. Odio, inventore ut.",
+            "Harvard computer science CS50x and CS50w classes",
         durations: "1 years",
     },
 ];
