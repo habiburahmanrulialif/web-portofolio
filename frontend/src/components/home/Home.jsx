@@ -2,7 +2,7 @@ import React from "react";
 import "./home.css";
 import bg_home from "../../assets/bg-home.jpg";
 import { TypeAnimation } from "react-type-animation";
-import { FaTwitter, FaFacebook, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaTwitter, FaFacebook, FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
 
 const Home = () => {
     return (
@@ -30,13 +30,18 @@ const Home = () => {
                         />
                     </h2>
                     <div className="socialMedia">
-                        <a href="https://www.linkedin.com" target="_blank">
+                        <a href="www.linkedin.com/in/habiburahman-ruli-alif" target="_blank">
                             <FaLinkedin size={20} className="cursor-pointer" />
                         </a>
-
-                        <FaInstagram size={20} className="cursor-pointer" />
-                        <FaTwitter size={20} className="cursor-pointer" />
-                        <FaFacebook size={20} className="cursor-pointer" />
+                        <a href="https://www.github.com/habiburahmanrulialif" target="_blank">
+                            <FaGithub size={20} className="cursor-pointer" />
+                        </a>
+                        <a href="https://www.instagram.com/habiburahman_14/" target="_blank">
+                            <FaInstagram size={20} className="cursor-pointer" />
+                        </a>
+                        <a href="https://www.facebook.com/people/Habiburahman-Ruli-Alif/100088122450815/" target="_blank">
+                            <FaFacebook size={20} className="cursor-pointer" />
+                        </a>
                     </div>
                 </div>
             </div>
