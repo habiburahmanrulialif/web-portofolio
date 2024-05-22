@@ -30,7 +30,7 @@ const Home = () => {
                         />
                     </h2>
                     <div className="socialMedia">
-                        <a href="www.linkedin.com/in/habiburahman-ruli-alif" target="_blank">
+                        <a href="https://www.linkedin.com/in/habiburahman-ruli-alif" target="_blank">
                             <FaLinkedin size={20} className="cursor-pointer" />
                         </a>
                         <a href="https://www.github.com/habiburahmanrulialif" target="_blank">
