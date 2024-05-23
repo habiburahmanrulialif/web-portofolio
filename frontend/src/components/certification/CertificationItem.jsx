@@ -8,7 +8,7 @@ function CertificationItem({ title, image, link }) {
             <div className="projectDetailContainer">
                 <h3 className="projectTitle">{title}</h3>
                 <a href={link} target="_blank" className="projectLink">
-                    LIVE DEMO
+                    Open
                 </a>
             </div>
         </div>
