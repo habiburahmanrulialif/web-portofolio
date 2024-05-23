@@ -23,8 +23,8 @@ function Certification() {
             <div id="certificate">
                 <h1 className="title">CERTIFICATE</h1>
                 <p className="titleDescription">
-                    Here are some of my certificate that i have accieve in my
-                    pursue if learning programming
+                    Here are some of my certificate that i have acquired in my
+                    pursue of learning programming
                 </p>
                 <div className="projectItem">
                     {certificate.map((item, index) => (
