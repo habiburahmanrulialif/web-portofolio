@@ -51,6 +51,21 @@
     transition: 100ms;
 }
 
+.githubLink {
+    text-decoration: none;
+    background-color: white;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+    color: rgb(55 65 81);
+    cursor: pointer;
+    font-size: 1.125rem; /* 18px */
+    line-height: 1.75rem; /* 28px */
+    transition: 100ms;
+}
+
 .projectLink:hover  {
     background-color: rgb(231, 230, 230);
 }
