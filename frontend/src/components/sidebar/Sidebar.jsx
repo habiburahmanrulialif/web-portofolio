@@ -38,7 +38,7 @@ const Sidebar = () => {
                     </a>
                     <a href="#certificate" onClick={handleNav} className="menuButton">
                         <PiCertificateBold size={20} />
-                        <span className="buttonName">Project</span>
+                        <span className="buttonName">Certificate</span>
                     </a>
                     <a href="#contact" onClick={handleNav} className="menuButton">
                         <AiOutlineMail size={20} />
