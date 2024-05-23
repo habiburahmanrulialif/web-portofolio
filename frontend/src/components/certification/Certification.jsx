@@ -2,6 +2,9 @@ import React from "react";
 import "./certification.css";
 import CS50x from "../../assets/CS50x.png";
 import CS50w from "../../assets/CS50W.png";
+import AgileFundamentals from "../../assets/Agile-Fundamentals.jpg";
+import SoftwareTesting from "../../assets/Software-Testing.jpg";
+
 import CertificationItem from "./CertificationItem";
 
 const certificate = [
@@ -13,6 +16,16 @@ const certificate = [
     {
         title: "CS50w",
         image: CS50w,
+        link: "#",
+    },
+    {
+        title: "Agile Fundamentals: Including Scrum and Kanban 2022",
+        image: AgileFundamentals,
+        link: "#",
+    },
+    {
+        title: "Software Testing, QA Testing, Manual Testing, SDLC, Test Plan",
+        image: SoftwareTesting,
         link: "#",
     },
 ];
