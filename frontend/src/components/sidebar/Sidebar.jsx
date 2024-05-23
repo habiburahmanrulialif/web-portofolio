@@ -5,6 +5,7 @@ import {
     AiOutlineProject,
     AiOutlineMail,
 } from "react-icons/ai";
+import { PiCertificateBold } from "react-icons/pi";
 import { LuGraduationCap } from "react-icons/lu";
 import "./sidebar.css";
 
@@ -35,6 +36,10 @@ const Sidebar = () => {
                         <AiOutlineProject size={20} />
                         <span className="buttonName">Project</span>
                     </a>
+                    <a href="#certificate" onClick={handleNav} className="menuButton">
+                        <PiCertificateBold size={20} />
+                        <span className="buttonName">Project</span>
+                    </a>
                     <a href="#contact" onClick={handleNav} className="menuButton">
                         <AiOutlineMail size={20} />
                         <span className="buttonName">Contact</span>
@@ -54,6 +59,9 @@ const Sidebar = () => {
                     </a>
                     <a href="#project" onClick={handleNav} className="sideBarItem">
                         <AiOutlineProject size={20} />
+                    </a>
+                    <a href="#certificate" onClick={handleNav} className="sideBarItem">
+                        <PiCertificateBold size={20} />
                     </a>
                     <a href="#contact" onClick={handleNav} className="sideBarItem">
                         <AiOutlineMail size={20} />
