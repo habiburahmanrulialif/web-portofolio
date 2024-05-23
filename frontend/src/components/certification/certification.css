@@ -1,0 +1,14 @@
+.certificate {
+  max-width: 1040px;
+  margin: auto;
+  padding: 1rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+@media screen and (min-width: 768px) {
+  .certificate {
+      padding: 5rem;
+  }
+
+}
