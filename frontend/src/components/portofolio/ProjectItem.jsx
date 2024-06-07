@@ -7,7 +7,7 @@ const ProjectItem = ({ img, title, link, githubLink, tech }) => {
             <img src={img} alt="/" className="projectImg" />
             <div className="projectDetailContainer">
                 <h3 className="projectTitle">{title}</h3>
-                <p>{tech}</p>
+                <p id="tech">{tech}</p>
                 <a href={link} target="_blank" className="projectLink">LIVE DEMO</a>
                 <a href={githubLink} target="_blank" className="githubLink">Details</a>
             </div>

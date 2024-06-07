@@ -45,6 +45,7 @@ const Portofolio = () => {
                         title="Commerce50"
                         link="https://commerce50.up.railway.app"
                         githubLink="https://github.com/habiburahmanrulialif/CS50Web/tree/main/COMMERCE"
+                        tech="Django + vanilla js"
                     />
                     <ProjectItem
                         img={Wiki50}

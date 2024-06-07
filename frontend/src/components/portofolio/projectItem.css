@@ -40,6 +40,10 @@
     text-align: center;
 }
 
+#tech {
+    color: white;
+}
+
 .projectLink {
     text-decoration: none;
     background-color: white;
