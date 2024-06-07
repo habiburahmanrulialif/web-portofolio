@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     height: auto;
+    max-height: 260px;
     width: 100%;
     box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
         0 8px 10px -6px rgb(0 0 0 / 0.1);
@@ -66,7 +67,7 @@
     transition: 100ms;
 }
 
-.projectLink:hover  {
+.projectLink:hover {
     background-color: rgb(231, 230, 230);
 }
 
@@ -74,6 +75,12 @@
     top: 0;
 }
 
-.projectItem-Item:active .projectDetailContainer{
+.projectItem-Item:active .projectDetailContainer {
     top: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .projectItem-Item {
+        max-height: 385px;
+    }
 }
