@@ -7,6 +7,7 @@ import Network50 from "../../assets/Network50.png";
 import Mail50 from "../../assets/Mail50.png";
 import Commerce50 from "../../assets/Commerce50.png";
 import Wiki50 from "../../assets/Wiki50.png";
+import ReactionTimer from "../../assets/reaction-timer.png"
 
 const Portofolio = () => {
     return (
@@ -24,6 +25,7 @@ const Portofolio = () => {
                     <ProjectItem img={Mail50} title="Mail50" link="https://mail50.up.railway.app" githubLink="https://github.com/habiburahmanrulialif/CS50Web/tree/main/MAIL" />
                     <ProjectItem img={Commerce50} title="Commerce50" link="https://commerce50.up.railway.app" githubLink="https://github.com/habiburahmanrulialif/CS50Web/tree/main/COMMERCE" />
                     <ProjectItem img={Wiki50} title="Wiki50" link="https://wiki50.up.railway.app" githubLink="https://github.com/habiburahmanrulialif/CS50Web/tree/main/WIKI" />
+                    <ProjectItem img={ReactionTimer} title="Reaction timer game" link="https://vue-project-production.up.railway.app" githubLink="https://github.com/habiburahmanrulialif/Vue-Project/tree/main/reaction-timer-game" />
                 </div>
             </div>
         </div>
