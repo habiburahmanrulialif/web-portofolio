@@ -8,6 +8,7 @@ import Mail50 from "../../assets/Mail50.png";
 import Commerce50 from "../../assets/Commerce50.png";
 import Wiki50 from "../../assets/Wiki50.png";
 import ReactionTimer from "../../assets/reaction-timer.png";
+import WeatherApp from "../../assets/weather.png";
 
 const Portofolio = () => {
     return (
@@ -57,9 +58,16 @@ const Portofolio = () => {
                     <ProjectItem
                         img={ReactionTimer}
                         title="Reaction timer game"
-                        link="https://vue-project-production.up.railway.app"
+                        link="https://reaction-timer.up.railway.app"
                         githubLink="https://github.com/habiburahmanrulialif/Vue-Project/tree/main/reaction-timer-game"
                         tech="Vue js"
+                    />
+                    <ProjectItem
+                        img={WeatherApp}
+                        title="Weather-App"
+                        link="https://weather-app.up.railway.app"
+                        githubLink="https://github.com/habiburahmanrulialif/Vue-Project/tree/main/weather-app"
+                        tech="Vue js + consume geocoding and openweather API"
                     />
                 </div>
             </div>
